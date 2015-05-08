@@ -37,7 +37,7 @@ class Node{
         int color;
 		bool traveled;
 		vector<Edge *> edge;
-
+		int f;
 		int d;
 		Node *prev;
 		int heap_idx;

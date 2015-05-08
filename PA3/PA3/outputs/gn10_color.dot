@@ -1,0 +1,39 @@
+// Coloring produced by graphlab
+graph gn10_color {
+v0 -- v1;
+v1 -- v2;
+v2 -- v3;
+v3 -- v4;
+v4 -- v5;
+v5 -- v6;
+v6 -- v7;
+v7 -- v8;
+v8 -- v9;
+v3 -- v0;
+v6 -- v3;
+v2 -- v5;
+v0 -- v8;
+v6 -- v9;
+v5 -- v7;
+v4 -- v8;
+v9 -- v3;
+v7 -- v9;
+v8 -- v5;
+v1 -- v8;
+v7 -- v4;
+v0 [label = "v0_color2"];
+v1 [label = "v1_color3"];
+v2 [label = "v2_color4"];
+v3 [label = "v3_color1"];
+v4 [label = "v4_color4"];
+v5 [label = "v5_color2"];
+v6 [label = "v6_color4"];
+v7 [label = "v7_color3"];
+v8 [label = "v8_color1"];
+v9 [label = "v9_color2"];
+}
+// vertices = 10
+// edges = 21
+// number_of_colors = 4
+// runtime = 0 sec
+// memory = 13 MB

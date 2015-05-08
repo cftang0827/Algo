@@ -111,7 +111,14 @@ void initCmds(CmdMgr *mgr) {
   // add your command here
   Cmd *testCmd   = new TestCmd("test");
   mgr->regCmd(testCmd);
-
+  Cmd *readgraph = new ReadGraph("read_graph");
+  mgr->regCmd(readgraph);
+  Cmd *writebfs = new WriteBFS("write_tree_bfs");
+  mgr->regCmd(writebfs);
+  Cmd *writedfs = new WriteDFS("write_tree_dfs");
+  mgr->regCmd(writedfs);
+  Cmd *colorgraph = new Colorgraph("color_graph");
+  mgr->regCmd(colorgraph);
 
 
 }
